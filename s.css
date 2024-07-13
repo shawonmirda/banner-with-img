@@ -1,0 +1,77 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the banner */
+.banner {
+    background-color: #5181ab;
+    background-image: url('https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2023/02/1200/675/lambo-3.jpg?ve=1&tl=1://cdn.motor1.com/images/mgl/OozxwY/s3/2024-lamborghini-aventador-successor-rendering.webp'); /* Replace with your banner image URL */
+    background-size: cover;
+    background-position: center;
+    color: rgb(13, 190, 187);
+    text-align: center;
+    padding: 40vh;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    color: #12aaf0;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: aqua;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button {
+    display: inline-block;
+    background-color: #000000;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    margin-bottom: 0px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: #0f6187;
+
+}
+
+/* Styling for the menu bar */
+.menu-bar {
+    background-color: #333333;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-bar ul li {
+    display: inline;
+}
+
+.menu-bar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+.menu-bar ul li a:hover {
+    background-color: #555;
+}
